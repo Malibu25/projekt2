@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-nav {
+header {
   background: #35736E;
   position: sticky;
   top: 0;
@@ -69,7 +69,7 @@ nav {
   width: 50%;
 }
 
-.hero-section-container .left h2 {
+.hero-section-container .left h1 {
   width: 80%;
   color: #fff;
   font-size: 54px;
@@ -428,7 +428,7 @@ nav {
   margin-left: 35px;
 }
 
-.services-bottom-card h5 {
+.services-bottom-card h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
@@ -541,7 +541,7 @@ nav {
   margin-bottom: 40px;
 }
 
-.blog-container-header h3 {
+.blog-container-header h2 {
   font-weight: 600;
   font-size: 34px;
   line-height: 41px;
@@ -569,7 +569,16 @@ nav {
   margin: 0 30px;
 }
 
-.sub-section-container {
+.blog-card-description p,
+.blog-card-description h5 {
+  font-weight: 700;
+}
+
+.blog-card-description span {
+  font-style: italic;
+}
+
+.footer {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
